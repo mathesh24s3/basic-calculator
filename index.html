@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&family=Oswald:wght@500&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts/calculation.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculator</h1>
+    </header>
+    <main>
+      <section id="calculator">
+        <div>
+          <div id="output">
+            <span><p></p></span>
+          </div>
+        </div>
+        <div>
+          <input type="button" name="clearAll" id="clearAll" class="operators" value="C" />
+          <input type="button" name="backspace" id="backspace" class="operators" value="B" />
+          <input
+            type="button"
+            name="modulus"
+            id="modulus"
+            class="operators arithmetic-operators"
+            value="%"
+          />
+          <input
+            type="button"
+            name="divide"
+            id="divide"
+            class="operators arithmetic-operators"
+            value="/"
+          />
+        </div>
+
+        <div>
+          <input
+            type="button"
+            name="nine"
+            id="nine"
+            class="numbers"
+            value="9"
+          />
+          <input
+            type="button"
+            name="eigth"
+            id="eight"
+            class="numbers"
+            value="8"
+          />
+          <input
+            type="button"
+            name="seven"
+            id="seven"
+            class="numbers"
+            value="7"
+          />
+          <input
+            type="button"
+            name="multiply"
+            id="multiply"
+            class="operators arithmetic-operators"
+            value="*"
+          />
+        </div>
+
+        <div>
+          <input type="button" name="six" id="six" class="numbers" value="6" />
+          <input
+            type="button"
+            name="five"
+            id="five"
+            class="numbers"
+            value="5"
+          />
+          <input
+            type="button"
+            name="four"
+            id="four"
+            class="numbers"
+            value="4"
+          />
+          <input
+            type="button"
+            name="subtract"
+            id="subtract"
+            class="operators arithmetic-operators"
+            value="-"
+          />
+        </div>
+
+        <div>
+          <input
+            type="button"
+            name="three"
+            id="three"
+            class="numbers"
+            value="3"
+          />
+          <input type="button" name="two" id="two" class="numbers" value="2" />
+          <input type="button" name="one" id="one" class="numbers" value="1" />
+          <input
+            type="button"
+            name="add"
+            id="add"
+            class="operators arithmetic-operators"
+            value="+"
+          />
+        </div>
+
+        <div>
+          <input type="button" name="none" class="none" value="N" />
+          <input
+            type="button"
+            name="zero"
+            id="zero"
+            class="numbers"
+            value="0"
+          />
+          <input type="button" name="none" class="none" value="N" />
+          <input type="button" name="equalto" id="equalto" value="=" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
