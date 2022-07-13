@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  --color-primary-100: rgb(215, 215, 240);
+  --color-primary-300: rgb(155, 180, 248);
+  --color-primary-500: rgb(118, 149, 235);
+  background-color: rgb(239, 239, 243);
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  height: 50%;
+  width: 25%;
+  background-color: var(--color-primary-100);
+  padding: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+}
+
+#output {
+  height: 7rem;
+  width: 90%;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+input {
+  margin: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.none {
+  background-color: var(--color-primary-100);
+  color: var(--color-primary-100);
+  box-shadow: 0 0 0 var(--color-primary-100);
+}
+
+.numbers {
+  transition: background-color 0.1s ease-out;
+}
+
+.numbers:hover {
+  background-color: black;
+  color: white;
+}
+
+.operators {
+  background-color: var(--color-primary-300);
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease-out;
+}
+
+.operators:hover {
+  background-color: var(--color-primary-500);
+}
+
+#equalto {
+  background-color: rgb(247, 171, 127);
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s ease-out;
+}
+
+#equalto:hover {
+  background-color: rgb(238, 155, 107);
+}
+
+#output {
+  text-align: center;
+}
+
+.input-number {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 4rem;
+}
+
+.calculate-number{
+  font-size: 2rem;
+  padding: 1rem
+}
